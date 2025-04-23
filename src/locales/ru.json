@@ -3,7 +3,12 @@
     "home": "главная",
     "works": "работы",
     "aboutMe": "обо мне",
-    "contacts": "контакты",
-    "logo": "jalisco"
+    "contacts": "контакты"
+  },
+  "hero": {
+    "title": "Халиско — Творец <span style='color: var(--third-text-color)'>веб-пространства</span> и <span style='color: var(--third-text-color)'>бот-решений</span>",
+    "subtitle": "Связываю <div> с реальностью, а ботов - с юмором. Ваши идеи - моя компиляция (и нет, это не ошибка 404)",
+    "button": "Свяжитесь со мной!!",
+    "text": "В настоящее время работаю над <span style='color: var(--primary-text-color); font-weight: 500'>портфолио</span>"
   }
 }

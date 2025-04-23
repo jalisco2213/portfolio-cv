@@ -18,7 +18,7 @@ const navLinks = computed(() => [
     <div class="header-logo bold">
       <a href="#">
         <img src="/logo.png" alt="/">
-        {{ languageStore.t('header.logo') }}
+        jalisco dev.
       </a>
     </div>
 
