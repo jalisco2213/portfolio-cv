@@ -5,7 +5,7 @@ const languageStore = useLanguageStore()
 </script>
 
 <template>
-  <div class="hero-main">
+  <div class="hero-container">
     <div class="hero-info">
       <div class="hero-left">
         <h1 v-html="languageStore.t('hero.title')"></h1>
@@ -46,7 +46,7 @@ const languageStore = useLanguageStore()
 </template>
 
 <style lang="scss" scoped>
-.hero-main {
+.hero-container {
   user-select: none;
 }
 
@@ -77,10 +77,9 @@ const languageStore = useLanguageStore()
   background: none !important;
   position: absolute;
   right: 0;
-  bottom: 100px;
   width: 100px;
   height: 100px;
-  border: 1px solid var(--primary-text-color);
+  border: 1px solid var(--secondary-text-color);
 }
 
 .hero-right {
