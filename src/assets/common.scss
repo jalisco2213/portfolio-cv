@@ -1,0 +1,24 @@
+@use './bind.scss';
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  background: #282c33;
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  color: var(--primary-text-color);
+}
+
+li, ul, a {
+  list-style-type: none;
+  color: inherit;
+  text-decoration: none;
+}
