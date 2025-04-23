@@ -11,5 +11,8 @@
     "button": "Contact me!!",
     "text": "Currently working on <span style='color: var(--primary-text-color); font-weight: 500'>Portfolio</span>",
     "quote": "With great power comes great electricity bill"
+  },
+  "projects": {
+    "button": "View all"
   }
 }

@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/project/a-faction.png",
+    "title": {
+      "en": "A-Faction",
+      "ru": "A-Faction",
+      "ua": "A-Faction"
+    },
+    "subtitle": {
+      "en": "Is a site for the Arizona RP game that provides user information with additional features",
+      "ru": "Сайт для игры Arizona RP, предоставляющий пользовательскую информацию об игроках с дополнительными функциями",
+      "ua": "Сайт для гри Arizona RP, який надає користувацьку інформацію про гравців з додатковими функціями"
+    },
+    "languages": "VueJS 3, SCSS, JavaScript, TypeScript, GraphQL",
+    "additionalImages": [
+      "/project/a-faction1.png",
+      "/project/a-faction3.png",
+      "/project/a-faction4.png",
+      "/project/a-faction5.png"
+    ]
+  },
+  {
+    "id": 2,
+    "imageUrl": "/project/a-factionboty.png",
+    "title": {
+      "en": "A-Faction Discord Bot",
+      "ru": "A-Faction Discord Bot",
+      "ua": "A-Faction Discord Bot"
+    },
+    "subtitle": {
+      "en": "A multifunctional Discord bot that connects to the website, simplifying interaction between players, administration, and game data.",
+      "ru": "Многофункциональный Discord бот, интегрированный с сайтом, для удобного взаимодействия игроков, администрации и игровых данных.",
+      "ua": "Багатофункціональний Discord бот, який інтегрований з сайтом для зручної взаємодії гравців, адміністрації та ігрових даних."
+    },
+    "languages": "JavaScript",
+    "additionalImages": [
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "/project/court.png",
+    "title": {
+      "en": "Court A-Faction",
+      "ru": "Court A-Faction",
+      "ua": "Court A-Faction"
+    },
+    "subtitle": {
+      "en": "Is a site for the Arizona RP game that provides user information with additional features",
+      "ru": "Сайт для игры Arizona RP, предоставляющий пользовательскую информацию об игроках с дополнительными функциями",
+      "ua": "Сайт для гри Arizona RP, який надає користувацьку інформацію про гравців з додатковими функціями"
+    },
+    "languages": "VueJS 3, SCSS, JavaScript, TypeScript, GraphQL, jsPDF, html2canvas",
+    "additionalImages": [
+      "/project/court2.png",
+      "/project/court3.png",
+      "/project/court4.png"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "/project/adelix.png",
+    "title": {
+      "en": "Adelix Tech Dep",
+      "ru": "Adelix Tech Dep",
+      "ua": "Adelix Tech Dep"
+    },
+    "subtitle": {
+      "en": "Device management system",
+      "ru": "Система управления устройствами",
+      "ua": "Система управління пристроями"
+    },
+    "languages": "VueJS 3, SCSS, TypeScript, GraphQL, jsPDF, html2canvas, Electron",
+    "additionalImages": [
+      "/project/adelix1.png",
+      "/project/adelix2.png",
+      "/project/adelix3.png"
+    ]
+  },
+  {
+    "id": 5,
+    "imageUrl": "/project/adelixbot.png",
+    "title": {
+      "en": "Adelix Telegram Bot",
+      "ru": "Adelix Telegram Bot",
+      "ua": "Adelix Telegram Bot"
+    },
+    "subtitle": {
+      "en": "Device management system",
+      "ru": "Система управления устройствами",
+      "ua": "Система управління пристроями"
+    },
+    "languages": "JavaScript (Grammy)",
+    "additionalImages": [
+      "/project/adelixbot2.png",
+      "/project/adelixbot3.png"
+    ]
+  }
+]

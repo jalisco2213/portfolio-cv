@@ -2,6 +2,7 @@
 import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
 import Navigation from './components/Navigation.vue';
+import ProjectTitle from "@/components/Projects/ProjectTitle.vue";
 </script>
 
 <template>
@@ -14,7 +15,11 @@ import Navigation from './components/Navigation.vue';
 
     <main>
       <section>
-        <Hero />
+        <Hero id="home"/>
+      </section>
+
+      <section>
+        <ProjectTitle id="works"/>
       </section>
     </main>
   </div>
@@ -27,5 +32,11 @@ import Navigation from './components/Navigation.vue';
   display: flex;
   flex-direction: column;
   gap: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 </style>
