@@ -6,24 +6,38 @@ const languageStore = useLanguageStore()
 
 <template>
   <div class="hero-main">
-    <div class="hero-left">
-      <h1 v-html="languageStore.t('hero.title')"></h1>
-      <p style="color: var(--secondary-text-color)">{{ languageStore.t('hero.subtitle') }}</p>
+    <div class="hero-info">
+      <div class="hero-left">
+        <h1 v-html="languageStore.t('hero.title')"></h1>
+        <p style="color: var(--secondary-text-color)">{{ languageStore.t('hero.subtitle') }}</p>
 
-      <button>{{ languageStore.t('hero.button') }}</button>
-    </div>
-
-    <div class="hero-right">
-      <div class="hero-img">
-        <img class="line" src="/background/line.svg" alt="">
-        <img class="avatar" src="/avatar.png" alt="">
-        <img class="dots" src="/background/dots.svg" alt="">
+        <button>{{ languageStore.t('hero.button') }}</button>
       </div>
 
-      <div class="hero-subtitle">
-        <div class="block"></div>
+      <div class="hero-right">
+        <div class="hero-img">
+          <img class="line" src="/background/line.svg" alt="">
+          <img class="avatar" src="/avatar.png" alt="">
+          <img class="dots" src="/background/dots.svg" alt="">
+        </div>
 
-        <p style="font-size: 11px;" v-html="languageStore.t('hero.text')"></p>
+        <div class="hero-subtitle">
+          <div class="block"></div>
+
+          <p style="font-size: 11px;" v-html="languageStore.t('hero.text')"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-quote">
+      <div class="hero-quote_top">
+        <img src="/background/quote.svg" alt="">
+        <img src="/background/quote.svg" alt="">
+        {{ languageStore.t("hero.quote") }}
+      </div>
+
+      <div class="hero-quote_bottom">
+        - Dr. Who
       </div>
     </div>
   </div>
@@ -32,7 +46,11 @@ const languageStore = useLanguageStore()
 <style lang="scss" scoped>
 .hero-main {
   user-select: none;
+}
+
+.hero-info {
   display: flex;
+  margin-bottom: 100px;
   align-items: center;
   justify-content: space-between;
 }
@@ -91,6 +109,37 @@ const languageStore = useLanguageStore()
       height: 10px;
       background: var(--third-text-color);
     }
+  }
+}
+
+.hero-quote {
+  position: relative;
+  width: 650px;
+  text-align: center;
+  margin: 0 auto;
+
+  &_top {
+    padding: 20px;
+    border: 1px solid var(--line-color);
+  }
+
+  &_bottom {
+    display: flex;
+    float: right;
+    padding: 10px;
+    border: 1px solid var(--line-color);
+  }
+
+  img:first-child {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+  }
+
+  img:last-child {
+    position: absolute;
+    bottom: -12px;
+    right: 10px;
   }
 }
 </style>
