@@ -10,7 +10,9 @@ import Hero from './components/Hero.vue';
     </header>
 
     <main>
-      <Hero />
+      <section>
+        <Hero />
+      </section>
     </main>
   </div>
 </template>
