@@ -40,6 +40,8 @@ const languageStore = useLanguageStore()
         - Dr. Who
       </div>
     </div>
+
+    <div class="block1"></div>
   </div>
 </template>
 
@@ -60,6 +62,25 @@ const languageStore = useLanguageStore()
   flex-direction: column;
   gap: 35px;
   width: 50%;
+
+  h1 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  p {
+    font-weight: 300;
+  }
+}
+
+.block1 {
+  background: none !important;
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid var(--primary-text-color);
 }
 
 .hero-right {
@@ -126,20 +147,20 @@ const languageStore = useLanguageStore()
   &_bottom {
     display: flex;
     float: right;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid var(--line-color);
   }
 
   img:first-child {
     position: absolute;
     top: -15px;
-    left: 10px;
+    left: 15px;
   }
 
   img:last-child {
     position: absolute;
     bottom: -12px;
-    right: 10px;
+    right: 15px;
   }
 }
 </style>

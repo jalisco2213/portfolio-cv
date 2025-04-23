@@ -1,11 +1,14 @@
 <script setup>
 import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
+import Navigation from './components/Navigation.vue';
 </script>
 
 <template>
   <div class="wrapper">
-    <header>
+    <Navigation/>
+
+    <header id="home">
       <Header />
     </header>
 
@@ -19,10 +22,10 @@ import Hero from './components/Hero.vue';
 
 <style lang="scss" scoped>
 .wrapper {
-  max-width: 1280px;
+  max-width: 1260px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 150px;
+  gap: 50px;
 }
 </style>
