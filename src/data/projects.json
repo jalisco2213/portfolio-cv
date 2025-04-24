@@ -95,5 +95,21 @@
       "/project/adelixbot2.png",
       "/project/adelixbot3.png"
     ]
+  },
+  {
+    "id": 6,
+    "imageUrl": "/project/portfolio.png",
+    "title": {
+      "en": "Jalisco Portfolio",
+      "ru": "Jalisco Portfolio",
+      "ua": "Jalisco Portfolio"
+    },
+    "subtitle": {
+      "en": "You’re using it rn",
+      "ru": "Вы используете его сейчас",
+      "ua": "Ти ним користуєшся"
+    },
+    "languages": "VueJS 3, SCSS, JavaScript",
+    "additionalImages": []
   }
 ]
