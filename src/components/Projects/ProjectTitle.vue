@@ -14,9 +14,9 @@ const languageStore = useLanguageStore()
         <div class="line"></div>
       </h2>
 
-      <span>
-        {{ languageStore.t('projects.button') }} ~~>
-      </span>
+<!--      <span>-->
+<!--        {{ languageStore.t('projects.button') }} ~~>-->
+<!--      </span>-->
     </div>
 
     <ProjectCard/>
